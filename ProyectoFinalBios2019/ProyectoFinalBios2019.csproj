@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94978C17-ACE8-47B1-A7DC-29362D5A29C4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyectoFinalBios2019</RootNamespace>
+    <AssemblyName>ProyectoFinalBios2019</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABMEmpleado.aspx.cs">
+      <DependentUpon>ABMEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMEmpleado.aspx.designer.cs">
+      <DependentUpon>ABMEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ABMEntidadesPublicas.aspx.cs">
+      <DependentUpon>ABMEntidadesPublicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMEntidadesPublicas.aspx.designer.cs">
+      <DependentUpon>ABMEntidadesPublicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ABMTiposDeTramite.aspx.cs">
+      <DependentUpon>ABMTiposDeTramite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMTiposDeTramite.aspx.designer.cs">
+      <DependentUpon>ABMTiposDeTramite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambioEstadoSolicitud.aspx.cs">
+      <DependentUpon>CambioEstadoSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambioEstadoSolicitud.aspx.designer.cs">
+      <DependentUpon>CambioEstadoSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaEstadoSolicitud.aspx.cs">
+      <DependentUpon>ConsultaEstadoSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaEstadoSolicitud.aspx.designer.cs">
+      <DependentUpon>ConsultaEstadoSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoEstadoDeSolicitudes.aspx.cs">
+      <DependentUpon>ListadoEstadoDeSolicitudes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoEstadoDeSolicitudes.aspx.designer.cs">
+      <DependentUpon>ListadoEstadoDeSolicitudes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoSolicitudesXFecha.aspx.cs">
+      <DependentUpon>ListadoSolicitudesXFecha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoSolicitudesXFecha.aspx.designer.cs">
+      <DependentUpon>ListadoSolicitudesXFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginEmp.aspx.cs">
+      <DependentUpon>LoginEmp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginEmp.aspx.designer.cs">
+      <DependentUpon>LoginEmp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MP.Master.cs">
+      <DependentUpon>MP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP.Master.designer.cs">
+      <DependentUpon>MP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarSolicitud.aspx.cs">
+      <DependentUpon>RegistrarSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarSolicitud.aspx.designer.cs">
+      <DependentUpon>RegistrarSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ABMEmpleado.aspx" />
+    <Content Include="ABMEntidadesPublicas.aspx" />
+    <Content Include="ABMTiposDeTramite.aspx" />
+    <Content Include="CambioEstadoSolicitud.aspx" />
+    <Content Include="ConsultaEstadoSolicitud.aspx" />
+    <Content Include="ListadoEstadoDeSolicitudes.aspx" />
+    <Content Include="ListadoSolicitudesXFecha.aspx" />
+    <Content Include="LoginEmp.aspx" />
+    <Content Include="RegistrarSolicitud.aspx" />
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MP.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesCompartidas\EntidadesCompartidas.csproj">
+      <Project>{E604FEA0-3919-42CE-97D7-6A5F56122407}</Project>
+      <Name>EntidadesCompartidas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{8EC73155-ABAF-4520-A075-3DBA6E6D4476}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Principal.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61621</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

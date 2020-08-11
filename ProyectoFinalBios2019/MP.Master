@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MP.master.cs" Inherits="ProyectoFinalBios2019.MP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+        }
+        .style3
+        {
+        }
+        .style4
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body style="height: 214px">
+    <form id="form1" runat="server">
+        
+            <table style="width:100%;">
+                <tr>
+                    <td class="style4" bgcolor="#CCCCCC">
+                        <asp:Menu ID="Menu1" runat="server" BackColor="#CCCCCC" ForeColor="#333333">
+                            <Items>
+                                <asp:MenuItem Text="ABMs" Value="ABMs">
+                                    <asp:MenuItem Text="ABM Empleados" Value="ABM Empleados" 
+                                        NavigateUrl="~/ABMEmpleado.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ABM Entidades" Value="ABM Entidades" 
+                                        NavigateUrl="~/ABMEntidadesPublicas.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ABM TiposDeTramite" Value="ABM TiposDeTramite" 
+                                        NavigateUrl="~/ABMTiposDeTramite.aspx">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/RegistrarSolicitud.aspx" 
+                                    Text="Registrar Solicitud" Value="Registrar Solicitud"></asp:MenuItem>
+                                <asp:MenuItem Text="Cambiar Estado Solicitud" Value="Cambio Estado Solicitud" 
+                                    NavigateUrl="~/CambioEstadoSolicitud.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ListadoEstadoDeSolicitudes.aspx" 
+                                    Text="Listado Estado de Solicitudes" Value="Listado Estado de Solicitudes">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ListadoSolicitudesXFecha.aspx" 
+                                    Text="Listado de Solicitudes por Fecha" 
+                                    Value="Listado de Solicitudes por Fecha"></asp:MenuItem>
+                                <asp:MenuItem Text="Logout" Value="Logout" NavigateUrl="~/LoginEmp.aspx"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                    <td class="style3" bgcolor="#CCCCCC" 
+                        style="font-family: Terminal; text-align: center;">
+                        <asp:Label ID="lblTitulo" runat="server" 
+                            
+                            
+                            
+                            style="text-decoration: underline; font-weight: 700; font-size: xx-large; font-family: 'Terminal';">Solicitud de tramites ONLINE</asp:Label>
+                        <br />
+                        <em style="text-align: center">Proyecto Final BIOS</em></td>
+                </tr>
+                <tr>
+                    <td class="style4" bgcolor="#CCCCCC" colspan="2">
+                        <asp:Label ID="lblEmpleado" runat="server" ForeColor="Red"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style1" colspan="2">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        
+    </form>
+</body>
+</html>

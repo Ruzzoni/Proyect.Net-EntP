@@ -1,0 +1,14 @@
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Ruzzoni\Desktop\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.pdb
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\Persistencia.dll
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\Persistencia.pdb
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.dll
+D:\ProyectoFinal2019\ProyectoFinalBios2019\Persistencia\obj\Debug\Persistencia.pdb
